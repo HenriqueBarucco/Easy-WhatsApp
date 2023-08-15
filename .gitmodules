@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:HenriqueBarucco/Easy-WhatsApp-API.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:HenriqueBarucco/Easy-Whatsapp-Frontend.git
