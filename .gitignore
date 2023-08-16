@@ -3,3 +3,4 @@ frontend.env
 backend.env
 sessions
 node_modules
+.vscode
