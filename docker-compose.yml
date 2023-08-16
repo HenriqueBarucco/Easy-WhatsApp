@@ -15,7 +15,7 @@ services:
         volumes:
             - ./sessions:/app/sessions
         env_file:
-            - backend.env
+            - .env
         restart: unless-stopped
     frontend:
         container_name: frontend
@@ -28,7 +28,7 @@ services:
         networks:
             - easy-whatsapp
         env_file:
-            - frontend.env
+            - .env
         restart: unless-stopped
         depends_on:
             - backend
